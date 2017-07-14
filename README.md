@@ -1,4 +1,4 @@
-# module-concat
+# hs-module-concat
 Fairly lightweight CommonJS module concatenation tool
 
 ## What is it?
@@ -15,14 +15,14 @@ single JavaScript file.  This project has one dependency:
 
 ## Install
 
-`npm install module-concat`
+`npm install hs-module-concat`
 
 **Note**: Used to be called `node-module-concat` but has since been renamed.
 
 ## Usage
 
 ```javascript
-var modConcat = require("module-concat");
+var modConcat = require("hs-module-concat");
 var outputFile = "./project/concatenated.js";
 modConcat("./project/index.js", outputFile, function(err, stats) {
 	if(err) throw err;
@@ -32,7 +32,7 @@ modConcat("./project/index.js", outputFile, function(err, stats) {
 
 ## API
 
-`var modConcat = require("module-concat");`
+`var modConcat = require("hs-module-concat");`
 
 **`var stream = new modConcat.ModuleConcatStream(entryModulePath [, options])`**
 
