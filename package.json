@@ -1,18 +1,31 @@
 {
-	"name": "module-concat",
-	"version": "2.2.0",
+	"name": "hs-module-concat",
+	"version": "2.2.1",
 	"description": "Lightweight CommonJS module concatenation tool",
 	"main": "index.js",
 	"dependencies": {
 		"resolve": ">=1.2 <2"
 	},
-	"devDependencies": {},
+	"devDependencies": {
+      "grunt": "^0.4.5",
+      "grunt-bump": "0.0.16",
+      "grunt-contrib-clean": "^0.6.0",
+      "grunt-contrib-copy": "^0.7.0",
+      "grunt-contrib-jshint": "~0.6.4",
+      "grunt-contrib-nodeunit": "~0.2.0",
+      "grunt-contrib-watch": "~0.5.3",
+      "grunt-conventional-changelog": "^1.1.0",
+      "grunt-exec": "^0.4.6",
+      "grunt-mkdir": "^0.1.2",
+      "grunt-mocha": "^0.4.11",
+      "grunt-mocha-test": "^0.12.4",
+      "grunt-sloc": "^0.5.2"},
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/bminer/module-concat.git"
+		"url": "https://github.com/hotschedules/hs-module-concat.git"
 	},
 	"keywords": [
 		"node",
@@ -27,7 +40,7 @@
 	"author": "Blake Miner <miner.blake@gmail.com>",
 	"license": "MIT",
 	"bugs": {
-		"url": "https://github.com/bminer/module-concat/issues"
+		"url": "https://github.com/hotschedules/hs-module-concat/issues"
 	},
-	"homepage": "https://github.com/bminer/module-concat"
+	"homepage": "https://github.com/hotschedules/hs-module-concat"
 }
